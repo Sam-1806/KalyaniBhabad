@@ -1,6 +1,7 @@
 import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
+import Script from 'next/script';
 
 export const metadata = {
   title: 'Maitra',
@@ -14,11 +15,27 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics script */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-C181H0FGFD"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C181H0FGFD');
+          `}
+        </Script>
+      </head>
       <body>
         <Navbar />
         {children}
         <Footer />
       </body>
     </html>
-  )
+  );
 }
