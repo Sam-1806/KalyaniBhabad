@@ -27,7 +27,7 @@ export default function Home() {
       <Featured />
       <Manage />
       <FAQ />
-      <Testimonials />
+      
       <Joinus />
       <Insta />
     </main>

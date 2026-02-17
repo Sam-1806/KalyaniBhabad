@@ -163,11 +163,7 @@ html {
   bottom: -57px;
 }
 
-.bg-wework {
-  background-image: url('/images/wework/elipse.svg'), url('/images/wework/vector.svg');
-  background-repeat: no-repeat, no-repeat;
-  background-position: bottom, top right;
-}
+
 
 .bg-featured {
   background-image: url('/images/wework/vector.svg');

@@ -14,26 +14,23 @@ const Aboutdata: datatype[] = [
         heading: "About us",
         imgSrc: "/images/aboutus/imgOne.svg",
         paragraph: [
-            "At Maitra, we believe in providing a safe, nurturing space where children, adolescents, and families can find guidance and support.",
-            "Under the compassionate leadership of Psychologist Kalyani Bhabad, we are committed to helping families navigate life challenges.",
-            "We focus on fostering resilience and empowering each individual to reach their fullest potential.",
-            "Our center offers a range of services tailored to the unique needs of each client.",
-            "From addressing childhood and adolescent concerns to supporting families through life transitions, our approach is rooted in empathy.",
-            "We utilize evidence-based practices and a genuine dedication to mental well-being."
-        ],
+      "Maitra provides a safe, supportive space for children, adolescents, and families.",
+      "Led by Psychologist Kalyani Bhabad, we help families navigate challenges with empathy.",
+      "Our approach empowers individuals to build resilience and reach their potential.",
+      "We offer personalized, evidence-based support tailored to each client’s needs."
+    ],
         link: 'Learn more'
     },
     {
         heading: "Services",
         imgSrc: "/images/aboutus/imgTwo.svg",
         paragraph: [
-            "Child Counseling: Support for children dealing with behavioral issues, anxiety, bullying, and emotional challenges.",
-            "Adolescent Counseling: Guidance for teenagers facing academic pressure, self-esteem issues, and life transitions.",
-            "Family Therapy: Strengthening family bonds through improved communication, conflict resolution, and mutual understanding.",
-            "Parenting Support: Helping parents with strategies to manage challenges and build positive connections with their children.",
-            "Individual Therapy: Personalized sessions for adults coping with stress, anxiety, depression, and personal growth.",
-            "Educational and Career Guidance: Supporting adolescents in exploring educational paths and career options that align with their strengths and interests.",
-        ],
+      "Child & Adolescent Counseling: Guidance for emotional, behavioral, and academic challenges.",
+      "Family Therapy: Strengthening communication and resolving conflicts.",
+      "Parenting Support: Practical strategies to build positive parent-child relationships.",
+      "Individual Therapy: Personalized support for stress, anxiety, and personal growth.",
+      "Educational & Career Guidance: Helping adolescents explore suitable paths."
+    ],
         link: 'Learn more'
     },
 ]

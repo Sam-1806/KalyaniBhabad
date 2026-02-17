@@ -17,9 +17,12 @@ const Banner = () => {
                         </h1>
                     </div>
                     <div className='my-7 text-center lg:text-start'>
+                        <a href="https://maitra-parenting-test.vercel.app/payments">
                         <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
-                            Get Started
+                            Parenting Style Test
                         </button>
+                        </a>
+                    
                     </div>
                 </div>
 
